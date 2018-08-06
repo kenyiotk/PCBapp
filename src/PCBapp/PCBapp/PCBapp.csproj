@@ -115,7 +115,12 @@
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\registration_activity.axml">
+
+    <AndroidResource Include="Resources\layout\login_activity.axml">
+     <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Activity_aboutus.axml">
+
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
