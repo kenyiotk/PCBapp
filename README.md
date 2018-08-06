@@ -1,1 +1,3 @@
 # PCBapp
+##Descripcion:
+El proyecto Natural, soluciona ...
