@@ -7,6 +7,7 @@ using Android.Support.V4.View;
 using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Views;
+using PCBapp.Fragments;
 
 namespace PCBapp
 {
@@ -79,7 +80,7 @@ namespace PCBapp
             }
             else if (id == Resource.Id.nav_gallery)
             {
-
+                
             }
             else if (id == Resource.Id.nav_slideshow)
             {
@@ -101,6 +102,33 @@ namespace PCBapp
             DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             drawer.CloseDrawer(GravityCompat.Start);
             return true;
+
+        }
+        private void changeFrame(string _type)
+        {
+            FragmentTransaction ft = FragmentManager.BeginTransaction();
+
+            Fragment fragment = null;
+            if (_type.Equals("aboutus"))
+            {
+                fragment = new FragmentAbautUs();
+            }
+            else if (_type.Equals("products"))
+            {
+                fragment = new FragmentProducts();
+            }
+            else
+            {
+
+            }
+            if (fragment != null)
+            {
+                ft.Replace(Resource.Id.fragmentMany, fragment);
+                //ft.AddToBackStack(null);
+                ft.SetTransition(FragmentTransit.FragmentFade);
+                ft.Commit();
+            }
+
         }
     }
 }
