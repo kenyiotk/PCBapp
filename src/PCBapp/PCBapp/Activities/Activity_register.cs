@@ -18,7 +18,7 @@ namespace PCBapp.Activities
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
+            SetContentView(Resource.Layout.Activity_registration);
             // Create your application here
         }
     }
