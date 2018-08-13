@@ -80,11 +80,11 @@ namespace PCBapp
             }
             else if (id == Resource.Id.nav_gallery)
             {
-                
+                changeFrame("aboutus");
             }
             else if (id == Resource.Id.nav_slideshow)
             {
-
+                changeFrame("products");
             }
             else if (id == Resource.Id.nav_manage)
             {
