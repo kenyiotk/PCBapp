@@ -55,6 +55,8 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fragments\FragmentAbautUs.cs" />
+    <Compile Include="Fragments\FragmentProducts.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -115,17 +117,20 @@
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2" />
   </ItemGroup>
   <ItemGroup>
-
     <AndroidResource Include="Resources\layout\login_activity.axml">
-     <SubType>Designer</SubType>
+      <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\Activity_aboutus.axml">
-
+    <AndroidResource Include="Resources\layout\fragment_aboutus.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Activity_registration.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\fragment_Products.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
