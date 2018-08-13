@@ -12,12 +12,13 @@ using Android.Widget;
 
 namespace PCBapp.Activities
 {
-    [Activity(Label = "Activity_login")]
+    [Activity(Label = "login_activity", MainLauncher = true)]
     public class Activity_login : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.login_activity);
 
             // Create your application here
         }
