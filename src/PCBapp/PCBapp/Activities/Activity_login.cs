@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace PCBapp.Activity
+namespace PCBapp.Activities
 {
     [Activity(Label = "Activity_login")]
     public class Activity_login : Activity
