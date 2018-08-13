@@ -55,8 +55,8 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activity\Activity_login.cs" />
-    <Compile Include="Activity\Activity_register.cs" />
+    <Compile Include="Activities\Activity_login.cs" />
+    <Compile Include="Activities\Activity_register.cs" />
     <Compile Include="Fragments\FragmentAbautUs.cs" />
     <Compile Include="Fragments\FragmentProducts.cs" />
     <Compile Include="MainActivity.cs" />
