@@ -11,34 +11,43 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingRight="50px"
+        android:paddingLeft="50px"
         android:id="@+id/linearLayout1">
-        <TextView
-            android:text="Ingresa"
+        <ImageView
+            android:src="@mipmap/ic_launcher"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView1" />
+            android:id="@+id/imageView1" />
         <TextView
-            android:text="usuario"
+            android:paddingTop="50px"
+            android:text="Email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2" />
+            android:id="@+id/textView2"
+            style="@style/AppTheme.GeneralLabel" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/editText1" />
         <TextView
-            android:text="Password"
+            android:text="Contraseña"
+            android:paddingTop="20px"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView3" />
+            android:id="@+id/textView3"
+            style="@style/AppTheme.GeneralLabel" />
         <EditText
+            android:paddingBottom="20px"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText2" />
+            android:id="@+id/editText2"
+            style="@style/AppTheme.GeneralInput" />
         <Button
-            android:text="login"
+            android:text="Ingresa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button1" />
+            android:id="@+id/button1"
+            style="@style/AppTheme.GeneralButton" />
     </LinearLayout>
 </LinearLayout>
