@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace PCBapp.Activities
 {
-    [Activity(Label = "login_activity", MainLauncher = true)]
+    [Activity(Label = "login_activity")]
     public class Activity_login : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
