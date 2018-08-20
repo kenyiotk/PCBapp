@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="Activities\Activity_login.cs" />
     <Compile Include="Activities\Activity_register.cs" />
+    <Compile Include="Adapters\ProductAdapter.cs" />
     <Compile Include="Fragments\FragmentAbautUs.cs" />
     <Compile Include="Fragments\FragmentDetallesProducts.cs" />
     <Compile Include="Fragments\FragmentProducts.cs" />
@@ -118,6 +119,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="RestSharp">
+      <Version>106.3.1</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2" />
   </ItemGroup>
   <ItemGroup>
